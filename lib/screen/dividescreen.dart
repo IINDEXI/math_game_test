@@ -129,7 +129,7 @@ class _dividescreenState extends State<dividescreen> {
     return Scaffold(
       backgroundColor: background,
       appBar: AppBar(
-        title: const Text('Quiz App'),
+        title: const Text('เกมทดสอบคณิตศาสตร์'),
         backgroundColor: background,
         shadowColor: Colors.transparent,
         actions: [

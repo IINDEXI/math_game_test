@@ -16,7 +16,15 @@ class _SelectPageState extends State<SelectPage> {
     return Scaffold(
       backgroundColor: background,
       appBar: AppBar(
-        title: const Text('Quiz App'),
+        title: const Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('เกมทดสอบคณิตศาสตร์',
+                style: TextStyle(
+                  fontSize: 35,
+                ))
+          ],
+        ),
         backgroundColor: background,
         shadowColor: Colors.transparent,
       ),
@@ -32,21 +40,24 @@ class _SelectPageState extends State<SelectPage> {
             SizedBox(
               height: 25.0,
             ),
-            Center(
-                child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                button1(),
+                AddandSubtractbutton(),
                 SizedBox(
                   height: 25.0,
                 ),
-                button2(),
+                multiplyscreenbutton(),
                 SizedBox(
                   height: 25.0,
                 ),
-                button3(),
+                dividescreenbutton(),
+                SizedBox(
+                  height: 25.0,
+                ),
+                pairscreenbutton(),
               ],
-            ))
+            )
           ],
         ),
       ),

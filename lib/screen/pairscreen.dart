@@ -1,70 +1,71 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/componant/question_image.dart';
 import '../default/default.dart';
-import '../componant/question.dart';
-import '../componant/question_widget.dart';
+import '../componant/question_widget_image.dart';
 import '../componant/next_button.dart';
 import '../componant/option_card.dart';
 import '../componant/result_box.dart';
 
-class AddandSubtract extends StatefulWidget {
-  const AddandSubtract({Key? key}) : super(key: key);
+class pairscreen extends StatefulWidget {
+  const pairscreen({Key? key}) : super(key: key);
 
   @override
   // ignore: library_private_types_in_public_api
-  _AddandSubtractState createState() => _AddandSubtractState();
+  _pairscreenState createState() => _pairscreenState();
 }
 
-class _AddandSubtractState extends State<AddandSubtract> {
-  final List<Question> _questions = [
-    Question(
+class _pairscreenState extends State<pairscreen> {
+  final List<Question_image> _questions = [
+    Question_image(
       id: '10',
-      title: '2 + 2 เท่ากับเท่าไร?',
-      options: {'5': false, '30': false, '4': true, '10': false},
+      image: '../assets/image/p1.png',
+      title: 'sadsa',
+      options: {'15': false, '12': false, '4': true, '8': false},
     ),
-    Question(
-      id: '10',
-      title: '10 + 20 เท่ากับเท่าไร?',
-      options: {'50': false, '30': true, '40': false, '10': false},
-    ),
-    Question(
-      id: '10',
-      title: '22 + 22 เท่ากับเท่าไร?',
-      options: {'44': true, '30': false, '45': false, '50': false},
-    ),
-    Question(
-      id: '10',
-      title: '50 - 20 เท่ากับเท่าไร?',
-      options: {'20': false, '30': true, '80': false, '10': false},
-    ),
-    Question(
-      id: '10',
-      title: '25 + 2 เท่ากับเท่าไร?',
-      options: {'23': false, '27': true, '42': false, '72': false},
-    ),
-    Question(
-      id: '10',
-      title: '100 + 20 เท่ากับเท่าไร?',
-      options: {'50': false, '30': false, '40': false, '120': true},
-    ),
-    Question(
-      id: '10',
-      title: '225 + 25 เท่ากับเท่าไร?',
-      options: {'250': true, '300': false, '325': false, '275': false},
-    ),
-    Question(
-      id: '10',
-      title: '150 + 200 เท่ากับเท่าไร?',
-      options: {'500': false, '350': true, '400': false, '100': false},
-    ),Question(
-      id: '10',
-      title: '200 - 20 เท่ากับเท่าไร?',
-      options: {'180': true, '300': false, '258': false, '150': false},
-    ),
-    Question(
-      id: '10',
-      title: '350 - 200 เท่ากับเท่าไร?',
-      options: {'150': true, '300': false, '400': false, '100': false},
-    ),
+    // Question(
+    //   id: '10',
+    //   title: '10 * 5 เท่ากับเท่าไร?',
+    //   options: {'50': true, '30': false, '40': false, '10': false},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '22 * 22 เท่ากับเท่าไร?',
+    //   options: {'484': true, '300': false, '450': false, '500': false},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '50 * 20 เท่ากับเท่าไร?',
+    //   options: {'1500': false, '400': false, '800': false, '1000': true},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '25 * 2 เท่ากับเท่าไร?',
+    //   options: {'55': false, '50': true, '25': false, '70': false},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '100 * 20 เท่ากับเท่าไร?',
+    //   options: {'1000': false, '2000': true, '4000': false, '1200': false},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '225 * 20 เท่ากับเท่าไร?',
+    //   options: {'4500': true, '3000': false, '3250': false, '2750': false},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '12 * 9 เท่ากับเท่าไร?',
+    //   options: {'106': false, '108': true, '116': false, '104': false},
+    // ),Question(
+    //   id: '10',
+    //   title: '121 * 5 เท่ากับเท่าไร?',
+    //   options: {'605': true, '505': false, '450': false, '550': false},
+    // ),
+    // Question(
+    //   id: '10',
+    //   title: '12 * 12 เท่ากับเท่าไร?',
+    //   options: {'144': true, '122': false, '111': false, '155': false},
+    // ),
   ];
 
   int index = 0;
@@ -129,7 +130,7 @@ class _AddandSubtractState extends State<AddandSubtract> {
     return Scaffold(
       backgroundColor: background,
       appBar: AppBar(
-        title: const Text('Quiz App'),
+        title: const Text('เกมทดสอบคณิตศาสตร์'),
         backgroundColor: background,
         shadowColor: Colors.transparent,
         actions: [
@@ -147,6 +148,7 @@ class _AddandSubtractState extends State<AddandSubtract> {
           children: [
             QuestionWidget(
               indexAction: index,
+              img: _questions[index].image,
               question: _questions[index].title,
               totalQuestion: _questions.length,
             ),

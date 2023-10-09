@@ -10,13 +10,16 @@ class Header extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       alignment: Alignment.centerLeft,
-      child: const Text(
+      child: const Column(children: [
+        SizedBox(height: 10,),
+        Text(
         'กรุณาเลือกบททดสอบ',
         style: TextStyle(
           fontSize: 20.0,
           color: fontcolor,
         ),
       ),
+      ],)
     );
   }
 }
