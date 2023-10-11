@@ -17,55 +17,65 @@ class pairscreen extends StatefulWidget {
 class _pairscreenState extends State<pairscreen> {
   final List<Question_image> _questions = [
     Question_image(
-      id: '10',
-      image: '../assets/image/p1.png',
-      title: 'sadsa',
-      options: {'15': false, '12': false, '4': true, '8': false},
+      id: '1',
+      image: '../assets/image/1.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'4': false, '2': false, '1': true, '8': false},
     ),
-    // Question(
-    //   id: '10',
-    //   title: '10 * 5 เท่ากับเท่าไร?',
-    //   options: {'50': true, '30': false, '40': false, '10': false},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '22 * 22 เท่ากับเท่าไร?',
-    //   options: {'484': true, '300': false, '450': false, '500': false},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '50 * 20 เท่ากับเท่าไร?',
-    //   options: {'1500': false, '400': false, '800': false, '1000': true},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '25 * 2 เท่ากับเท่าไร?',
-    //   options: {'55': false, '50': true, '25': false, '70': false},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '100 * 20 เท่ากับเท่าไร?',
-    //   options: {'1000': false, '2000': true, '4000': false, '1200': false},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '225 * 20 เท่ากับเท่าไร?',
-    //   options: {'4500': true, '3000': false, '3250': false, '2750': false},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '12 * 9 เท่ากับเท่าไร?',
-    //   options: {'106': false, '108': true, '116': false, '104': false},
-    // ),Question(
-    //   id: '10',
-    //   title: '121 * 5 เท่ากับเท่าไร?',
-    //   options: {'605': true, '505': false, '450': false, '550': false},
-    // ),
-    // Question(
-    //   id: '10',
-    //   title: '12 * 12 เท่ากับเท่าไร?',
-    //   options: {'144': true, '122': false, '111': false, '155': false},
-    // ),
+    Question_image(
+      id: '2',
+      image: '../assets/image/4.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'4': true, '2': false, '8': false, '6': false},
+    ),
+    Question_image(
+      id: '3',
+      image: '../assets/image/7.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'1': false, '3': false, '5': false, '7': true},
+    ),
+    Question_image(
+      id: '4',
+      image: '../assets/image/3.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'1': false, '3': true, '5': false, '7': false},
+    ),
+    Question_image(
+      id: '5',
+      image: '../assets/image/5.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'7': false, '5': true, '3': false, '1': false},
+    ),
+    Question_image(
+      id: '6',
+      image: '../assets/image/10.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'4': false, '6': false, '8': false, '10': true},
+    ),
+    Question_image(
+      id: '7',
+      image: '../assets/image/8.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'4': false, '6': false, '8': true, '10': false},
+    ),
+    Question_image(
+      id: '8',
+      image: '../assets/image/6.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'4': false, '6': true, '8': false, '10': false},
+    ),
+    Question_image(
+      id: '9',
+      image: '../assets/image/2.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'1': false, '2': true, '3': false, '4': false},
+    ),
+    Question_image(
+      id: '10',
+      image: '../assets/image/9.jpg',
+      title: 'จงเลือกเลขตามจำนวนในรูปภาพ',
+      options: {'7': false, '8': false, '9': true, '10': false},
+    ),
   ];
 
   int index = 0;

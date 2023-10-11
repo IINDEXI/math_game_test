@@ -17,46 +17,46 @@ class AddandSubtract extends StatefulWidget {
 class _AddandSubtractState extends State<AddandSubtract> {
   final List<Question> _questions = [
     Question(
-      id: '10',
+      id: '1',
       title: '2 + 2 เท่ากับเท่าไร?',
       options: {'5': false, '30': false, '4': true, '10': false},
     ),
     Question(
-      id: '10',
+      id: '2',
       title: '10 + 20 เท่ากับเท่าไร?',
       options: {'50': false, '30': true, '40': false, '10': false},
     ),
     Question(
-      id: '10',
+      id: '3',
       title: '22 + 22 เท่ากับเท่าไร?',
       options: {'44': true, '30': false, '45': false, '50': false},
     ),
     Question(
-      id: '10',
+      id: '4',
       title: '50 - 20 เท่ากับเท่าไร?',
       options: {'20': false, '30': true, '80': false, '10': false},
     ),
     Question(
-      id: '10',
+      id: '5',
       title: '25 + 2 เท่ากับเท่าไร?',
       options: {'23': false, '27': true, '42': false, '72': false},
     ),
     Question(
-      id: '10',
+      id: '6',
       title: '100 + 20 เท่ากับเท่าไร?',
       options: {'50': false, '30': false, '40': false, '120': true},
     ),
     Question(
-      id: '10',
+      id: '7',
       title: '225 + 25 เท่ากับเท่าไร?',
       options: {'250': true, '300': false, '325': false, '275': false},
     ),
     Question(
-      id: '10',
+      id: '8',
       title: '150 + 200 เท่ากับเท่าไร?',
       options: {'500': false, '350': true, '400': false, '100': false},
     ),Question(
-      id: '10',
+      id: '9',
       title: '200 - 20 เท่ากับเท่าไร?',
       options: {'180': true, '300': false, '258': false, '150': false},
     ),

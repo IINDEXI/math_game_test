@@ -17,46 +17,46 @@ class dividescreen extends StatefulWidget {
 class _dividescreenState extends State<dividescreen> {
   final List<Question> _questions = [
     Question(
-      id: '10',
+      id: '1',
       title: '10 / 2 เท่ากับเท่าไร?',
       options: {'5': true, '2': false, '4': false, '1': false},
     ),
     Question(
-      id: '10',
+      id: '2',
       title: '18 / 3 เท่ากับเท่าไร?',
       options: {'6': true, '8': false, '4': false, '2': false},
     ),
     Question(
-      id: '10',
+      id: '3',
       title: '22 / 22 เท่ากับเท่าไร?',
       options: {'1': true, '3': false, '4': false, '2': false},
     ),
     Question(
-      id: '10',
+      id: '4',
       title: '80 / 4 เท่ากับเท่าไร?',
       options: {'20': true, '30': false, '40': false, '10': false},
     ),
     Question(
-      id: '10',
+      id: '5',
       title: '24 / 2 เท่ากับเท่าไร?',
       options: {'20': false, '10': false, '12': true, '8': false},
     ),
     Question(
-      id: '10',
+      id: '6',
       title: '120 / 5 เท่ากับเท่าไร?',
       options: {'25': false, '21': false, '22': false, '24': true},
     ),
     Question(
-      id: '10',
+      id: '7',
       title: '90 / 9 เท่ากับเท่าไร?',
       options: {'10': true, '20': false, '30': false, '5': false},
     ),
     Question(
-      id: '10',
+      id: '8',
       title: '450 / 25 เท่ากับเท่าไร?',
       options: {'28': false, '18': true, '23': false, '13': false},
     ),Question(
-      id: '10',
+      id: '9',
       title: '600 / 8 เท่ากับเท่าไร?',
       options: {'75': true, '95': false, '55': false, '65': false},
     ),

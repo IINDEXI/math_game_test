@@ -18,46 +18,46 @@ class multiplyscreen extends StatefulWidget {
 class _multiplyscreenState extends State<multiplyscreen> {
   final List<Question> _questions = [
     Question(
-      id: '10',
+      id: '1',
       title: '2 * 2 เท่ากับเท่าไร?',
       options: {'15': false, '12': false, '4': true, '8': false},
     ),
     Question(
-      id: '10',
+      id: '2',
       title: '10 * 5 เท่ากับเท่าไร?',
       options: {'50': true, '30': false, '40': false, '10': false},
     ),
     Question(
-      id: '10',
+      id: '3',
       title: '22 * 22 เท่ากับเท่าไร?',
       options: {'484': true, '300': false, '450': false, '500': false},
     ),
     Question(
-      id: '10',
+      id: '4',
       title: '50 * 20 เท่ากับเท่าไร?',
       options: {'1500': false, '400': false, '800': false, '1000': true},
     ),
     Question(
-      id: '10',
+      id: '5',
       title: '25 * 2 เท่ากับเท่าไร?',
       options: {'55': false, '50': true, '25': false, '70': false},
     ),
     Question(
-      id: '10',
+      id: '6',
       title: '100 * 20 เท่ากับเท่าไร?',
       options: {'1000': false, '2000': true, '4000': false, '1200': false},
     ),
     Question(
-      id: '10',
+      id: '7',
       title: '225 * 20 เท่ากับเท่าไร?',
       options: {'4500': true, '3000': false, '3250': false, '2750': false},
     ),
     Question(
-      id: '10',
+      id: '8',
       title: '12 * 9 เท่ากับเท่าไร?',
       options: {'106': false, '108': true, '116': false, '104': false},
     ),Question(
-      id: '10',
+      id: '9',
       title: '121 * 5 เท่ากับเท่าไร?',
       options: {'605': true, '505': false, '450': false, '550': false},
     ),
